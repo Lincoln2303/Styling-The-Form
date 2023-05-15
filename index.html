@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Form Input Wave</title>
+</head>
+<body>
+    <!-- I.01. We start it with a container -->
+    <div class="container">
+        <h1>Please Log In</h1>
+        <!-- I.02. Then we add a form: (NOTE: With "form-control" div inside)-->
+        <form>
+            <div class="form-control">
+                <input type="text" id="email" autocomplete="off" required>
+                <label for="email">Email</label>
+            </div>
+        </form>
+        <!-- I.03. We also make one for password: -->
+        <form>
+            <div class="form-control">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+            </div>
+        </form>
+        <!-- I.04. And finally a button, and a register link: -->
+        <!-- NOTE: We want to use js to wrap each letter in a span, and we're going to have a transition on that span to move it up, plus we add a transition delay on each one that increases every letter -->
+        <!-- AFTER: We do the css part (I.04.) -->
+        <button class="btn">Login</button>
+        <p class="text">Don't have an account? <a href="#">Register</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
