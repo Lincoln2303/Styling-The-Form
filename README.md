@@ -7,7 +7,6 @@ This project is a demonstration of styling a form using HTML and CSS. It showcas
 
 ## Features
 
-- Beautifully styled form elements
 - Responsive design
 - Interactive form validation
 
@@ -21,7 +20,7 @@ This project is a demonstration of styling a form using HTML and CSS. It showcas
 To view the project locally, follow these steps:
 
 1. Clone the repository.
-2. Navigate to the project directory: `cd Styling_The_Form`
+2. Navigate to the project directory.
 3. Open the index.html file in your web browser.
 
 ## Acknowledgement
