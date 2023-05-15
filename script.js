@@ -1,7 +1,5 @@
 // II.02. First we're saving all the labels:
 const labels = document.querySelectorAll('.form-control label');
-const usernameInput = document.querySelector('#email');
-const suggestionList = document.querySelector('#suggestion-list')
 // II.12. We're adding inline style to span, and set the delay, with using the index and multiply it with 50ms for each letter:
 
 // II.03. Since it is a no list we can use forEach on them:
@@ -14,10 +12,6 @@ labels.forEach(label => {
         .join('') // AFTER: We're going back to our css, styling span first (II.08.)
 })
 
-usernameInput.addEventListener("focus", () => {
-    // Hide or remove the suggestion list
-    suggestionList.style.display = "none"; // or suggestionList.remove();
-  });
 
 
 
